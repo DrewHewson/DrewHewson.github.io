@@ -1,0 +1,41 @@
+.tour-dates  {
+ position: relative;
+  padding-bottom: 20%;
+  padding-top: 15px;
+  height: 0;
+  margin: auto;
+  width: 60%;
+  top: 130px;
+
+}
+
+.band-logo  {
+  position: relative;
+  padding-bottom: 0%;
+  height: 20%;
+  margin: auto;
+  width: 60%;
+  text-align: center;
+  top: 50px;
+  bottom: -300px;
+  
+
+
+}
+
+.img-responsive  {
+	top: 60%;
+    left: 50%;
+    padding-top: 0%;
+    width: 65%;
+    height: 0%;
+    
+
+}
+
+.menu-logo  {
+	top: 50%;
+    left: 50%;
+    height: 40%;
+    
+}
