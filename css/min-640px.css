@@ -6649,11 +6649,12 @@ nav ul a span.badge {
 .container {
   margin: 0 auto;
   width: 100%;
-  height: 965px;
+  height: 100vh;
   background-image: url("../img/balconies2.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
+
  
 }
 
@@ -6670,6 +6671,7 @@ nav ul a span.badge {
   line-height: 1in;
   white-space: nowrap;
   box-shadow: 0 0 em gray;
+  
  
 }
 
