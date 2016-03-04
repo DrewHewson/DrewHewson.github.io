@@ -1,41 +1,14 @@
-.tour-dates  {
- position: relative;
-  padding-bottom: 20%;
-  padding-top: 15px;
-  height: 0;
-  margin: auto;
-  width: 60%;
-  top: 130px;
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
 
+.icon-block {
+  padding: 0 15px;
 }
-
-.band-logo  {
-  position: relative;
-  padding-bottom: 0%;
-  height: 20%;
-  margin: auto;
-  width: 60%;
-  text-align: center;
-  top: 50px;
-  bottom: -300px;
-  
-
-
-}
-
-.img-responsive  {
-	top: 60%;
-    left: 50%;
-    padding-top: 0%;
-    width: 65%;
-    height: 0%;
-    
-
-}
-
-.menu-logo  {
-	top: 50%;
-    left: 50%;
-    height: 40%;
-    
+.icon-block .material-icons {
+	font-size: inherit;
 }
