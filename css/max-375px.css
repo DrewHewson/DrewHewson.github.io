@@ -2204,6 +2204,11 @@ html {
  */
 body {
   margin: 0;
+  min-height: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: 1px black solid;
 }
 
 /* HTML5 display definitions
@@ -6660,6 +6665,7 @@ nav ul a span.badge {
 .container_2 {
   margin: 0 auto;
   width: 100%;
+  height: 50vh;
   display: -ms-flexbox;
   display: -webkit-flex;
   -webkit-flex-wrap: wrap;
@@ -6669,12 +6675,8 @@ nav ul a span.badge {
   line-height: 1in;
   white-space: nowrap;
   box-shadow: 0 0 em gray;
-  position:fixed !important;
-  position:absolute;
-  top:0;
-  right:0;
-  bottom:0;
-  left:0;
+  
+ 
 
  
 }
@@ -6700,6 +6702,7 @@ nav ul a span.badge {
 .section {
   padding-top: 0rem;
   padding-bottom: 0rem;
+  
 }
 
 .section.no-pad {
