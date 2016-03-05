@@ -68,3 +68,44 @@ background-repeat: no-repeat;
 background-size: cover;
 
 }
+
+#info {
+    color: #009caf;
+    text-align: right;
+    position: absolute;
+    top: 8%;
+    right: 1%;
+    width: 98%;
+    display: none;
+}
+
+.box, .box--alpha, .box--beta, .box--gamma, .box--delta, .box--epsilon {
+
+margin: 10px;
+padding: 10px;
+position: relative;
+width: 100%;
+height: auto;
+text-align: right; 
+margin-left: 150px;
+}
+
+.box--alpha h1 {
+  font-size: 2vw;
+}
+
+.box--beta h1 {
+  font-size: 2vh;
+}
+
+.box--gamma h1 {
+  font-size: 2vmin;
+}
+
+.box--delta h1 {
+  font-size: 2vmax;
+}
+
+.box--epsilon h1 {
+  font-size: calc(16px + 2vw);
+}

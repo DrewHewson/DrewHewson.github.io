@@ -3,6 +3,8 @@
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
+
+  @font-face { font-family: Cabin; src: url('../font/cabin/Cabin-Regular.otf'); }
 .materialize-red.lighten-5 {
   background-color: #fdeaeb !important;
 }
@@ -2207,6 +2209,11 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: 'Cabin', helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 1.2em;
+  line-height: 1.5em;
   
 }
 
@@ -6658,7 +6665,7 @@ nav ul a span.badge {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  
+  position: relative;
 }
 
 .container_2 {
