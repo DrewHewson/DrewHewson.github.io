@@ -29,8 +29,42 @@
   -webkit-flex: 1 5in;
   -ms-flex: 1 5in;
   flex: 2 7in;
-  background-color: gold;
+  
   width: 50%;
   max-width: 100%;
   height: 50vh;
+}
+
+
+
+.video_1  {
+background-image: url("../img/balconies_kill_count.jpg");
+background-position: center top;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.video_2  {
+background-image: url("../img/balconies_boys_and_girls.jpg");
+background-position: center top;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+.video_3  {
+background-image: url("../img/balconies_do_it_in_the_dark.jpg");
+background-position: center top;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.video_4  {
+background-image: url("../img/balconies_the_slo.jpg");
+background-position: center top;
+background-repeat: no-repeat;
+background-size: cover;
+
 }
