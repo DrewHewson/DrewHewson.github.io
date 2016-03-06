@@ -7346,6 +7346,7 @@ nav {
   width: 100%;
   height: 56px;
   line-height: 56px;
+  overflow: hidden;
 }
 
 nav a {
@@ -7364,9 +7365,10 @@ nav i.material-icons {
 nav .nav-wrapper {
   position: relative;
   height: 100%;
+  overflow: hidden;
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 510px) {
   nav a.button-collapse {
     display: none;
   }
@@ -7509,7 +7511,7 @@ nav .input-field label.active {
 
 @media only screen and (min-width: 601px) {
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: 64px;
+    height: 50px;
     line-height: 64px;
   }
   .navbar-fixed {
