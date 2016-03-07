@@ -39,7 +39,7 @@
 
 .video_1  {
 background-image: url("../img/balconies_kill_count.jpg");
-background-position: center top;
+background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 position: relative;
@@ -57,7 +57,7 @@ transition: 0.2s ease-out;
 }
 .video_2  {
 background-image: url("../img/balconies_boys_and_girls.jpg");
-background-position: center top;
+background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 position: relative;
@@ -76,7 +76,7 @@ transition: 0.2s ease-out;
 
 .video_3  {
 background-image: url("../img/balconies_do_it_in_the_dark.jpg");
-background-position: center top;
+background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 position: relative;
@@ -94,7 +94,7 @@ transition: 0.2s ease-out;
 
 .video_4  {
 background-image: url("../img/balconies_the_slo.jpg");
-background-position: center top;
+background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 position: relative;
