@@ -117,7 +117,7 @@ line-height: 1.6em;
     display: none;
 }
 
-.box, .box--alpha, .box--beta, .box--gamma, .box--delta, .box--epsilon {
+.box {
 
 margin: 10px;
 padding: 10px;
