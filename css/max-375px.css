@@ -2198,7 +2198,7 @@ html {
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
-  height:auto;
+  height: 100%;
   /* 2 */
 }
 
@@ -2207,7 +2207,7 @@ html {
  */
 body {
   margin: 0;
-  height: auto;
+  height: 100%;
   margin: 0;
   padding: 0;
   font-family: 'Cabin', helvetica, sans-serif;
@@ -2594,7 +2594,7 @@ th {
 
 html {
   box-sizing: border-box;
-  height:auto;
+  height: 100%;
 }
 
 *, *:before, *:after {
@@ -6710,7 +6710,7 @@ nav ul a span.badge {
 }
 
 .section {
-  height:50%;
+  height:100%;
   
 }
 
@@ -6724,7 +6724,7 @@ nav ul a span.badge {
 
 .section.no-pad-top {
   padding-top: 0;
-  height:50%;
+  height:100%;
 }
 
 .row {
@@ -7566,28 +7566,28 @@ html {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.87);
-  height: auto;
+  height: 100%;
 
 }
 
 @media only screen and (min-width: 0) {
   html {
     font-size: 14px;
-    height:auto;
+    height: 100%;
   }
 }
 
 @media only screen and (min-width: 992px) {
   html {
     font-size: 14.5px;
-    height:auto;
+    height: 100%;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   html {
     font-size: 15px;
-    height:auto;
+    height: 100%;
   }
 }
 
