@@ -25,14 +25,22 @@
   color: white;
 }
 
+.containerflex {
+.col-group > div {
+  padding: 1em;
+  margin-bottom: 1em;  
+}
+
+
+
 #either {
-  -webkit-flex: 1 5in;
-  -ms-flex: 1 5in;
-  flex: 2 7in;
-  
+  -webkit-flex: 1 3in;
+  -ms-flex: 1 3in;
+  flex: 1 4in;
+  background-color: gold;
   width: 50%;
-  max-width: 100%;
-  height: 50vh;
+  height: 50%;
+}
 }
 
 
@@ -176,3 +184,81 @@ span {
     text-align: center;
     display: none;
 }
+
+
+
+
+.flexbox {
+
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: flex-start;
+}
+
+.flex-card-listitem {
+
+  display:flex;
+
+}
+
+.flexcard  {
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+
+
+}
+.switch-flexbox .d-flex-card-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+
+
+@media all and (min-width:40em) {
+
+  /* Float layout */
+  .flexbox li {
+    width:50%;
+  }
+  .no-flexbox .flexbox li {
+    float:left;
+
+  }
+
+}
+/* Code to adjust the layout to 3 cards per row */
+@media all and (min-width:40em) and (max-width:60em) {
+
+  /* Clears the row for 2 item per row layout */
+  .no-flexbox .flexbox li:nth-child(2n+1) {
+    clear:both;
+  }
+}
+@media all and (min-width:60em) {
+
+  /* common to flex and non-flex */
+  .flexbox li {
+    width:33.33%;
+  }
+
+  /* Float specific: Clear after every third item */
+  .no-flexbox .flex-card-listitem li:nth-child(3n+1) {
+    clear:both;
+  }
+
+
+}
+
+
+

@@ -6662,7 +6662,7 @@ nav ul a span.badge {
 .container {
   margin: 0 auto;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-image: url("../img/balconies2.jpg");
   background-position: center top;
   background-repeat: no-repeat;
@@ -6731,6 +6731,7 @@ nav ul a span.badge {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
+  height: 100%
 }
 
 .row:after {
@@ -6831,6 +6832,7 @@ nav ul a span.badge {
   margin-left: auto;
   left: auto;
   right: auto;
+  height: 50%;
 }
 
 .row .col.offset-s1 {
@@ -7049,6 +7051,7 @@ nav ul a span.badge {
     margin-left: auto;
     left: auto;
     right: auto;
+    height: 100%;
   }
   .row .col.offset-m1 {
     margin-left: 8.3333333333%;
@@ -7196,6 +7199,7 @@ nav ul a span.badge {
     margin-left: auto;
     left: auto;
     right: auto;
+    height: 50%;
   }
   .row .col.l7 {
     width: 58.3333333333%;
