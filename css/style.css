@@ -148,22 +148,6 @@ margin-left: 150px;
   font-size: calc(16px + 2vw);
 }
 
-span {
-  font-family: 'Cabin', helvetica, sans-serif;
-  position: absolute;
-    top: 50%;
-    margin-top: -30px;
-    left: 0%;
-    width: 100%;
-    text-align: center;
-    color: white;
-    font-size: 1.5em;
-    line-height: 1.6em;
-    transition: 0.2s ease-out;
-    -webkit-transition: 0.2s ease-out;
-
-
-}
 #title {
     position: absolute;
     bottom: 2%;
@@ -249,5 +233,23 @@ span {
 
 }
 
+.bandsTown  {
+    height: 100%;
+    overflow-y: scroll;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+
+}
+
+.table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
 
 
+
+
+}

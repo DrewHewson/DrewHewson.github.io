@@ -6670,22 +6670,10 @@ nav ul a span.badge {
   position: relative;
 }
 
-.container_2 {
-  margin: 0 auto;
+.container2 {
   width: 100%;
-  height: 50vh;
-  max-height: 200vh;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  text-align: center;
-  line-height: 1in;
-  white-space: nowrap;
-  box-shadow: 0 0 em gray;
-  padding-bottom:1px;
-  t
+  height: 100%;
+  
 
 
  
@@ -6714,6 +6702,11 @@ nav ul a span.badge {
   
 }
 
+.section3 {
+  min-height: 50%;
+  
+}
+
 .section.no-pad {
   
 }
@@ -6730,7 +6723,7 @@ nav ul a span.badge {
 .row {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
+  
   height: 100%
 }
 
