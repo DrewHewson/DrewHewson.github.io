@@ -6670,10 +6670,22 @@ nav ul a span.badge {
   position: relative;
 }
 
-.container2 {
+.container_2 {
+  margin: 0 auto;
   width: 100%;
-  height: 100%;
-  
+  height: 50vh;
+  max-height: 200vh;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  text-align: center;
+  line-height: 1in;
+  white-space: nowrap;
+  box-shadow: 0 0 em gray;
+  padding-bottom:1px;
+  t
 
 
  
@@ -6702,16 +6714,12 @@ nav ul a span.badge {
   
 }
 
-.section3 {
-  min-height: 50%;
-  
-}
-
 .section.no-pad {
   
 }
 
 .section.no-pad-bot {
+ 
 }
 
 .section.no-pad-top {
@@ -6722,7 +6730,7 @@ nav ul a span.badge {
 .row {
   margin-left: auto;
   margin-right: auto;
-  
+  margin-bottom: 20px;
   height: 100%
 }
 
@@ -7434,7 +7442,6 @@ nav ul li {
   transition: background-color .3s;
   float: left;
   padding: 0;
-  text-shadow: 6px 6px 0px rgba(255, 255, 255, 0.2);
 }
 
 nav ul li.active {
@@ -7454,11 +7461,10 @@ nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul 
   margin-top: -2px;
   margin-left: 15px;
   margin-right: 15px;
-  text-shadow: 6px 6px 0px rgba(255, 255, 255, 0.2);
 }
 
 nav ul a:hover {
-  opacity: 0.6;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 nav ul.left {
@@ -7501,13 +7507,13 @@ nav .input-field label.active {
 }
 
 .navbar-fixed {
-  position: fixed;
-  height: 50px;
+  position: relative;
+  height: 56px;
   z-index: 998;
 }
 
 .navbar-fixed nav {
-position: fixed;
+  position: fixed;
 }
 
 @media only screen and (min-width: 601px) {
@@ -7516,7 +7522,7 @@ position: fixed;
     line-height: 64px;
   }
   .navbar-fixed {
-    height: 50px;
+    height: 64px;
   }
 }
 
