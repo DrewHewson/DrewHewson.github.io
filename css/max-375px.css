@@ -6712,7 +6712,6 @@ nav ul a span.badge {
 }
 
 .section.no-pad-bot {
- 
 }
 
 .section.no-pad-top {
@@ -7435,6 +7434,7 @@ nav ul li {
   transition: background-color .3s;
   float: left;
   padding: 0;
+  text-shadow: 6px 6px 0px rgba(255, 255, 255, 0.2);
 }
 
 nav ul li.active {
@@ -7454,10 +7454,11 @@ nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul 
   margin-top: -2px;
   margin-left: 15px;
   margin-right: 15px;
+  text-shadow: 6px 6px 0px rgba(255, 255, 255, 0.2);
 }
 
 nav ul a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  opacity: 0.6;
 }
 
 nav ul.left {
@@ -7500,13 +7501,13 @@ nav .input-field label.active {
 }
 
 .navbar-fixed {
-  position: relative;
-  height: 56px;
+  position: fixed;
+  height: 50px;
   z-index: 998;
 }
 
 .navbar-fixed nav {
-  position: fixed;
+position: fixed;
 }
 
 @media only screen and (min-width: 601px) {
@@ -7515,7 +7516,7 @@ nav .input-field label.active {
     line-height: 64px;
   }
   .navbar-fixed {
-    height: 64px;
+    height: 50px;
   }
 }
 
