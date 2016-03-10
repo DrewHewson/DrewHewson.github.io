@@ -6714,7 +6714,6 @@ nav ul a span.badge {
 }
 
 .section.no-pad {
-  padding-top: ;
   height:100%;
 
 }
@@ -6722,7 +6721,7 @@ nav ul a span.badge {
 .section.no-pad-bot {
   padding-bottom: 0;
   height: 100%;
-  ;
+  
 }
 
 .section.no-pad-top {
