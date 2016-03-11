@@ -6657,19 +6657,11 @@ nav ul a span.badge {
   
 }
 
-.container2 {
+.container3 {
   margin: 0 auto;
   width: 100%;
-  height: 100vh;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  text-align: center;
-  line-height: 1in;
-  white-space: nowrap;
-  box-shadow: 0 0 em gray;
+  min-height: 50vh;
+  
   
 
  
