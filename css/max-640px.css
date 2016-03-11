@@ -3,9 +3,6 @@
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
-
-  @font-face { font-family: Cabin; src: url('../font/cabin/Cabin-Regular.otf'); }
-
 .materialize-red.lighten-5 {
   background-color: #fdeaeb !important;
 }
@@ -2199,8 +2196,6 @@ html {
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
-  height: 100%;
-  
   /* 2 */
 }
 
@@ -2209,14 +2204,6 @@ html {
  */
 body {
   margin: 0;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  font-family: 'Cabin', helvetica, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  font-size: 1.2em;
-  line-height: 1.5em;
 }
 
 /* HTML5 display definitions
@@ -2595,7 +2582,6 @@ th {
 
 html {
   box-sizing: border-box;
-  height: 100%;
 }
 
 *, *:before, *:after {
@@ -6663,21 +6649,18 @@ nav ul a span.badge {
 .container {
   margin: 0 auto;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-image: url("../img/balconies2.jpg");
   background-position: 65% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-
   
 }
 
 .container_2 {
   margin: 0 auto;
   width: 100%;
-  height: auto;
-  max-height: 200vh;
+  
   display: -ms-flexbox;
   display: -webkit-flex;
   -webkit-flex-wrap: wrap;
@@ -6687,16 +6670,8 @@ nav ul a span.badge {
   line-height: 1in;
   white-space: nowrap;
   box-shadow: 0 0 em gray;
-  padding-bottom:1px;
-  top:100%;
-
+  
  
-}
-
-.container_3 {
-  margin: 0 auto;
-  width: 100%;
-  height: auto;
 }
 
 @media only screen and (min-width: 601px) {
@@ -6718,20 +6693,17 @@ nav ul a span.badge {
 }
 
 .section {
- padding-top: 0;
- height:100%;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
 }
 
-
 .section.no-pad {
-  padding-top: 0;
-  height:100%;
+  padding: 0;
 
 }
 
 .section.no-pad-bot {
   padding-bottom: 0;
-  height: 100%;
 }
 
 .section.no-pad-top {
@@ -6742,7 +6714,6 @@ nav ul a span.badge {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
-  height: 100%;
 }
 
 .row:after {
@@ -6843,7 +6814,6 @@ nav ul a span.badge {
   margin-left: auto;
   left: auto;
   right: auto;
-  height: 50%;
 }
 
 .row .col.offset-s1 {
@@ -7062,7 +7032,6 @@ nav ul a span.badge {
     margin-left: auto;
     left: auto;
     right: auto;
-    height: 50%;
   }
   .row .col.offset-m1 {
     margin-left: 8.3333333333%;
@@ -7210,7 +7179,6 @@ nav ul a span.badge {
     margin-left: auto;
     left: auto;
     right: auto;
-    height: 50%;
   }
   .row .col.l7 {
     width: 58.3333333333%;
@@ -7360,11 +7328,10 @@ nav ul a span.badge {
 
 nav {
   color: #fff;
-  background-color: #0C3356;
+  background-color: #ee6e73;
   width: 100%;
-  height: 50px;
+  height: 56px;
   line-height: 56px;
-  overflow: hidden;
 }
 
 nav a {
@@ -7383,10 +7350,9 @@ nav i.material-icons {
 nav .nav-wrapper {
   position: relative;
   height: 100%;
-  overflow: hidden;
 }
 
-@media only screen and (min-width: 510px) {
+@media only screen and (min-width: 993px) {
   nav a.button-collapse {
     display: none;
   }
@@ -7529,7 +7495,7 @@ nav .input-field label.active {
 
 @media only screen and (min-width: 601px) {
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: 50px;
+    height: 64px;
     line-height: 64px;
   }
   .navbar-fixed {
@@ -7581,28 +7547,23 @@ html {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.87);
-  height: 100%;
-
 }
 
 @media only screen and (min-width: 0) {
   html {
     font-size: 14px;
-    height: 100%;
   }
 }
 
 @media only screen and (min-width: 992px) {
   html {
     font-size: 14.5px;
-    height: 100%;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   html {
     font-size: 15px;
-   height: 100%;
   }
 }
 
