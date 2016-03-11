@@ -13,10 +13,7 @@
 	font-size: inherit;
 }
 
-@supports (flex-wrap: wrap) {
-  .container {
-    display: flex;
-  }
+
 
 
 #print {
@@ -25,12 +22,8 @@
   color: white;
 }
 
-#either {
-  -webkit-flex: 1 5in;
-  -ms-flex: 1 5in;
-  flex: 2 7in;
-  background-color: gold;
-  width: 50%;
-  max-width: 100%;
-  height: 482.5px;
+.colour {
+background-color: black;
+
+  
 }
