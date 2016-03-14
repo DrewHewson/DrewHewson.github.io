@@ -17,11 +17,18 @@
 <div class="navbar-fixed">
   <nav>
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo">Logo</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-small">
+        <li><a href="#balconies">BALCONIES</a></li>
+        <li><a href="#videos">VIDEOS</a></li>
+        <li><a href="#live">LIVE</a></li>
+        <li><a href="mobile.html">CONTACT</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="#balconies">BALCONIES</a></li>
+        <li><a href="#videos">VIDEOS</a></li>
+        <li><a href="#live">LIVE</a></li>
+        <li><a href="mobile.html">CONTACT</a></li>
       </ul>
     </div>
   </nav>
@@ -29,7 +36,17 @@
 
   
   <div class="section no-pad-bot">
-    <div class="container">
+    <div class="container" id="balconies">
+      <div id="info" style="display: block;">
+        <h2>The Debut Album</h2>
+        <h3>Out Now</h3>
+
+        <p class="links1">Buy from<br> <a href="http://smarturl.it/lapLoveBlindiTunes" target="_blank">iTunes</a> | <a href="http://smarturl.it/lapLoveBlindAmaz" target="_blank">Amazon</a> | <a href="http://smarturl.it/laplovexlstore " target="_blank">XL Store</a></p>
+
+        <p class="links2">Stream on<br> <a href="http://smarturl.it/lapspotify">Spotify</a> | <a href="http://smarturl.it/lapapple">Apple Music</a></p>
+        
+        <p class="links3">Lapsley Live 2016<br> <a href="#live">Click for dates and tickets</a></p>
+      </div>
       
 
     </div>
@@ -37,7 +54,7 @@
 
 <div class="section no-pad-bot">
 
- <div class="row">
+ <div class="row" id="videos">
     <div class="col s12 m12 l6" id="video_1">
       </div>
     <div class="col s12 m12 l6" id="video_2">
@@ -50,10 +67,10 @@
 </div> 
 
 <div class="section no-pad-bot">
-    <div class="container3">
+    <div class="container3" id="live">
       <div class="bandsTown">
       <script type="text/javascript" src="http://www.bandsintown.com/javascripts/bit_widget.js"></script>
-<a href="http://www.bandsintown.com" class="bit-widget-initializer" data-artist="Lapsley" data-force-narrow-layout="true">Bandsintown</a>
+<a href="http://www.bandsintown.com" class="bit-widget-initializer" data-artist="Lapsley" data-force-narrow-layout="true" data-separator-color="#0d1e31">Bandsintown</a>
       
       </div>
     </div>
