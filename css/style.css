@@ -40,6 +40,7 @@ text-align: center;
 color: white;
 font-size: 1.5em;
 line-height: 1.6em;
+-webkit-transition: 0.2s ease-out;
 
 
 }
@@ -108,5 +109,27 @@ padding-top: 40px;
 
 .bandsTown {
 padding-top: 50px;
+
+}
+
+.vid_text {
+position: absolute;
+top: 50%;
+margin-top: -30px;
+left: 0%;
+width: 100%;
+text-align: center;
+color: white;
+font-size: 1.5em;
+line-height: 1.6em;
+transition: 0.2s ease-out;
+-webkit-transition: 0.2s ease-out;
+text-transform: uppercase;
+
+
+}
+
+.vid_text:hover {
+text-shadow: 6px 6px 0px rgba(255, 255, 255, 0.2);
 
 }
