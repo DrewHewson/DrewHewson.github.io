@@ -76,8 +76,7 @@ line-height: 1.6em;
 
 }
 
-#video_4  {
-background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/balconies_the_slo.jpg");
+#video_4  {  
 background-image: url("../img/balconies_the_slo.jpg");
 background-position: center;
 background-repeat: no-repeat;
@@ -95,14 +94,14 @@ line-height: 1.6em;
 #info  {
 text-align: right;
 position: absolute;
-top: 8%;
+top: 5%;
 right: 3%;
 width: 40%;
 display: none;
 padding-top: 40px;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 1.2em;
+    font-size: 1.4em;
     line-height: 1.5em;
     color: rgba(27, 30, 45, 0.87);
 
