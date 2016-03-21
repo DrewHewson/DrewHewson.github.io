@@ -210,5 +210,29 @@ font-size: 1.4em;
 line-height: 1.5em;
 color: rgba(27, 30, 45, 0.87);
 
+}
+
+
+.contact-info  {
+text-align: center;
+position: relative;
+display: block;
+width: 100%;
+height: auto;
+text-transform: uppercase;
+letter-spacing: 4px;
+font-size: 1.4em;
+line-height: 1.5em;
+color: rgba(27, 30, 45, 0.87);
 
 }
+
+.contact-text  {
+
+ margin-top: 0px;
+ margin-bottom: 0px;
+ color: white;
+
+}
+
+
