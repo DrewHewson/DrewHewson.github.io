@@ -200,16 +200,16 @@ text-shadow: 6px 6px 0px rgba(255, 255, 255, 0.2);
   } 
 }
 
-.info  {
-text-align: center;
-width: 100%;
-height: auto;
-text-transform: uppercase;
-letter-spacing: 4px;
-font-size: 1.4em;
-line-height: 1.5em;
-color: rgba(27, 30, 45, 0.87);
-
+.info {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    color: rgba(27, 30, 45, 0.87);
+    padding-top: 15px;
 }
 
 
@@ -225,7 +225,8 @@ font-size: 1.4em;
 line-height: 1.3em;
 color: rgba(27, 30, 45, 0.87);
 top: 15%;
-margin-top: 15px;
+padding-top: 15px;
+
 
 }
 
