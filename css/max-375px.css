@@ -7505,13 +7505,13 @@ nav .input-field label.active {
 }
 
 .navbar-fixed {
-  position: relative;
+  position: fixed;
   height: 50px;
   z-index: 998;
 }
 
 .navbar-fixed nav {
-  position: relative;
+  position: fixed;
 }
 
 @media only screen and (min-width: 601px) {
