@@ -100,7 +100,6 @@ display: none;
 padding-top: 40px;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 1.4em;
     color: rgba(27, 30, 45, 0.87);
 
 }
@@ -252,7 +251,6 @@ padding-top: 15px;
 .splash {
 text-transform: uppercase;
 letter-spacing: 3px;
-font-size: 1.8em;
 color: #050708;
 text-shadow: 5px 3px 7px #1E2C33;
 margin-top: 25px;
@@ -265,7 +263,6 @@ text-shadow: 2px 6px 0px rgba(155, 155, 255, 0.2);
 
 }
 
-br {
-   display: block;
-   margin: 10px 0;
+#nav-links  {
+  font-size: .8em;
 }
