@@ -7572,7 +7572,7 @@ html {
 
 @media only screen and (min-width: 0) {
   html {
-    font-size: 14px;
+    font-size: 30px;
   }
 }
 
@@ -7584,7 +7584,7 @@ html {
 
 @media only screen and (min-width: 1200px) {
   html {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 
