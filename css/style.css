@@ -94,7 +94,7 @@ line-height: 1.6em;
 #info  {
 text-align: right;
 position: absolute;
-right: .5%;
+right: 1%;
 width: 40%;
 display: none;
 padding-top: 40px;
