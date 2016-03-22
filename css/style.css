@@ -106,7 +106,15 @@ overflow: hidden;
 
 .bandsTown {
 padding-top: 50px;
+font-size: 1.5em;
+}
 
+.bandsTown a{
+color: #4A8EDC;
+
+}
+
+.bandsTown span {
 }
 
 .vid_text {
