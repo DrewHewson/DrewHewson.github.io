@@ -6675,12 +6675,11 @@ nav ul a span.badge {
 .container4 {
   margin: 0 auto;
   width: 100%;
-  min-height: 85vh;
-  background-position: center top;
+  min-height: 50vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/balconies_contact.jpg");
+  background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #0d1e31;
-  position: relative;
 
 }
 
