@@ -2281,6 +2281,7 @@ a {
 a:active,
 a:hover {
   outline: 0;
+      text-shadow: 6px 6px 2px rgba(49, 42, 49, 0.2);
 }
 
 /* Text-level semantics
@@ -7451,7 +7452,7 @@ nav ul a {
   display: block;
   padding: 0 15px;
   cursor: pointer;
-  text-shadow: 6px 6px 0px rgba(155, 155, 255, 0.2);
+  
 }
 
 nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul a.btn-floating {
@@ -7461,7 +7462,7 @@ nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul 
 }
 
 nav ul a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  text-shadow: 6px 6px 0px rgba(155, 155, 255, 0.2);
 }
 
 nav ul.left {
@@ -7571,7 +7572,7 @@ html {
 
 @media only screen and (min-width: 0) {
   html {
-    font-size: 22px;
+    font-size: 25px;
   }
 }
 
