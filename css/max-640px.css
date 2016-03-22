@@ -7454,6 +7454,10 @@ nav ul a {
   display: block;
   padding: 0 15px;
   cursor: pointer;
+  -webkit-animation: fade-in-down 3s; 
+  animation: fade-in-down 3s; 
+  -webkit-animation-delay: 3s; 
+  animation-delay: 0.1s;
   
 }
 

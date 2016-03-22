@@ -96,12 +96,16 @@ text-align: right;
 position: absolute;
 right: 0.2%;
 width: 60%;
-display: none;
 padding-top: 40px;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: rgba(27, 30, 45, 0.87);
 overflow: hidden;
+-webkit-animation: fade-in-down 3s; 
+  animation: fade-in-down 3s; 
+  -webkit-animation-delay: 3s; 
+  animation-delay: 0.1s;
+
 }
 
 .bandsTown {
@@ -272,7 +276,10 @@ letter-spacing: 3px;
 color: #050708;
 margin-top: 25px;
 margin-bottom: 25px;
+
 }
+
+
 
 
 
