@@ -4,7 +4,7 @@
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
  @font-face { font-family: Cabin; src: url("../font/cabin/Cabin-Regular.otf"); } 
- @font-face { font-family: Kameron; src: url("../font/Kameron/Kameron-Bold.otf"); } 
+ @font-face { font-family: Kameron; src: url("../font/Kameron/Kameron-Bold.ttf"); } 
 
 
 .materialize-red.lighten-5 {
