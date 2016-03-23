@@ -159,13 +159,13 @@ text-shadow: 6px 6px 0px rgba(255, 255, 255, 0.2);
 
 .btn-social { 
   display: inline-block; 
-  width: 72px; 
-  height: 72px; 
+  width: 57.6px; 
+  height: 57.6px; 
   border: 1px solid #bbbbbb; 
   border-radius: 100%; 
   text-align: center; 
-  font-size: 36px; 
-  line-height: 69px; 
+  font-size: 28.8px; 
+  line-height: 55.2px; 
 }
 
 
@@ -214,7 +214,6 @@ text-shadow: 6px 6px 0px rgba(255, 255, 255, 0.2);
     width: 100%;
     height: auto;
     text-transform: uppercase;
-    letter-spacing: 4px;
     font-size: 1.4em;
     line-height: 1.5em;
     color: rgba(27, 30, 45, 0.87);
